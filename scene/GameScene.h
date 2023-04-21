@@ -21,6 +21,8 @@ class GameScene {
 	/// </summary>
 	GameScene();
 
+	uint32_t textureHandleBG_ = 0;
+	Sprite* spriteBG_ = nullptr;
 	/// <summary>
 	/// デストラクタ
 	/// </summary>
