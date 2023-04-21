@@ -17,10 +17,12 @@ class GameScene {
 
   public: // メンバ関数
 	/// <summary>
-	/// コンストクラタ
+	/// コンストクラタa
 	/// </summary>
 	GameScene();
-
+	
+	uint32_t textureHandle_ = 0;
+	Sprite* sprite_ = nullptr;
 	/// <summary>
 	/// デストラクタ
 	/// </summary>
